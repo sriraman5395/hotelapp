@@ -17,7 +17,7 @@ import { useNavigate , Link } from "react-router-dom";
 import {initializeApp } from 'firebase/app';
 import {getDatabase,ref,set,push} from 'firebase/database';
 import { getAnalytics } from "firebase/analytics";
-import  {database} from './Firebase'
+import  {database} from '../../Firebase'
 
 
 const firebaseConfig = {

@@ -15,5 +15,5 @@ import { getDatabase, ref, push } from "firebase/database";
       };
       
 
-      initializeApp(firebaseConfig);
-      const db = getDatabase();
+      const app = initializeApp(firebaseConfig);
+      const db = getDatabase(app);
